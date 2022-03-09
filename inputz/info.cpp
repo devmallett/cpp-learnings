@@ -2,7 +2,7 @@
 
 using namespace std;
 
-main (){
+int main(){
     
     string name;
     int age;
@@ -12,8 +12,8 @@ main (){
     cout << "Hello!"; 
     cout << "What is your name?";
     getline(cin ,name);
-    cout << "Hello " << name <<"!";
-    cout << "Where are you from?";
+    cout << "Hello " << name <<"! ";
+    cout << " Where are you from?";
     getline(cin, homeTown);
     cout << "Awesome ! I've heard it's wonderful there!";
     cout << "How old are you?";
