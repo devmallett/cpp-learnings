@@ -7,12 +7,24 @@ string say(string phrase){
 }
 
 
+string whatsYourPod(string podName){
+    return podName;
+}
+
 
 int main(){
 
    string newPhrase = say("Lets goooooo");
 
-   cout << newPhrase;
+   string myFavPod = whatsYourPod("NEW RORY AND MAL");
+
+
+    cout << "Whats your favorite podcast?" << endl;
+
+    cout << "My favorite pod is "<< myFavPod;
+
+
+   
 
     return 0;
 }
