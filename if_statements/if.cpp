@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
 
+
     bool isMale = false;
     // bool isMale = true;
 
