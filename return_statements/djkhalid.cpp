@@ -21,7 +21,7 @@ int main(){
 
     cout << "Whats your favorite podcast?" << endl;
 
-    cout << "My favorite pod is "<< myFavPod;
+    cout << "My favorite pod is " << myFavPod;
 
 
    
