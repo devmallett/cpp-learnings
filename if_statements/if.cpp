@@ -11,6 +11,13 @@ int main(){
     // bool isTall = true;
     bool isTall = false;
 
+    bool isWatching = false;
+
+    if (!isWatching){
+
+        cout << "I am watching youtube";
+    }
+
     //And
 
     // if( isMale && isTall){
@@ -23,17 +30,17 @@ int main(){
     
 
     //Or
-      if( isMale && isTall){
+    //   if( isMale && isTall){
 
-        cout << "You are a male";
+    //     cout << "You are a male";
 
-    } else if (isMale && !isTall) {
+    // } else if (isMale && !isTall) {
 
-        cout << "This dude is not tall";
+    //     cout << "This dude is not tall";
 
-    }else {
-        cout << "You are not male";
-    }
+    // }else {
+    //     cout << "You are not male";
+    // }
 
 
     return 0;
