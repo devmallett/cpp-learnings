@@ -6,9 +6,11 @@ int main()
 {
 
 
-    for(int i = 0; i<= 100; i++){
+    int nums[] = {1 ,2 ,5 ,7 ,3};
 
-        cout << i << endl;
+    for(int i = 0; i< 5; i++){
+
+        cout << nums[i] << endl;
     }
     return 0;
 }
