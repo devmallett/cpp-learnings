@@ -12,6 +12,11 @@ class Book {
         string author;
         int pages;
         //constructor - special function that gets called whenever we create a book object
+        Book() {
+            title = "no title";
+            author = "no author";
+            pages = 0;
+        }
         Book( string aTitle ,string aAuthor ,int aPages){
 
             title = aTitle;
@@ -46,6 +51,10 @@ int main()
 //    book2.title = "Harry Potter";
 //    book2.author = "JK Rowling";
 //    book2.pages = 700;
+
+Book book3;
+
+cout << book3.title << endl;
 
    cout << book2.title<< endl;
 
