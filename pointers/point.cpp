@@ -8,6 +8,7 @@ cout << "Age: " << &age << endl;
 cout << "Name: " << &name << endl;
 cout << "GPA: " << &gpa << endl;
 
+Pointers are just types of information 
 */
 
 int main() {
@@ -19,7 +20,14 @@ int main() {
     string name= "Dev";
     string *pName = &name; //memory address of name variable 
 
-    cout << pAge;
+    // cout << pAge;
+
+    //Dereference pointer address 
+    cout << *pAge << endl;;
+
+    cout << *&gpa << endl;
+
+
 
     // cout << "Age: " << &age << endl;
     // cout << "Name: " << &name << endl;
