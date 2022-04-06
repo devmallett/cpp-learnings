@@ -13,11 +13,13 @@ class Student {
         gpa = aGpa;
     }
 
-    string hasHonors(){
-        if (gpa >= 3.5){
-            return name + " has honors";
+    bool hasHonors(){
+        if (gpa >= 2.0){
+            // return name + " has honors";
+            return true;
         }
-        return name + " doesn't have honors";
+        // return name + " doesn't have honors";
+        return false;
     }
 };
 
